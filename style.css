@@ -26,6 +26,7 @@
 }
 
 body {
+  background-color: rgb(227, 227, 227);
   font-family: 'Gotham-pro';
 }
 
@@ -162,4 +163,67 @@ body {
 .gallery__item {
   width: 24%;
   border-radius: 10px;
+}
+
+.flag {
+  width: 12px;
+}
+
+.product-description {
+  font-weight: light;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.shipping {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.stars-rate {
+  padding-right: 10px;
+}
+
+.options {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options__select {
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.action-btn {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: #37d997;
+  border: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
