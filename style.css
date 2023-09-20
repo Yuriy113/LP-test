@@ -143,6 +143,10 @@ body {
   gap: 5px;
 }
 
+.gallery__slider {
+  text-align: center;
+}
+
 .gallery__title {
   text-align: center;
   padding: 20px 0;
